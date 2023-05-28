@@ -1,0 +1,30 @@
+.home_container{
+
+
+}
+
+.card_container{
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+}
+h1{
+  text-align: center;
+}
+.card{
+  border:1px solid black;
+  margin: 0 20px;
+  display: flex;
+  flex-direction:column;
+  padding: 10px 20px
+}
+.img{
+  width:200px;
+  height: 200px;
+}
+
+.card button{
+  padding: 5px 10px ;
+  background-color:blue;
+  color:white;
+}
